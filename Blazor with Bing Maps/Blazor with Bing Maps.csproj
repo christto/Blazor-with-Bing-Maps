@@ -10,4 +10,6 @@
     <PackageReference Include="System.Net.Http.Json" Version="5.0.0" />
   </ItemGroup>
 
+  <Import Project="..\Core\Core.projitems" Label="Shared" />
+
 </Project>

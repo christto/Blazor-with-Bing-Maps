@@ -48,3 +48,37 @@ a, .btn-link {
         right: 0.75rem;
         top: 0.5rem;
     }
+
+/*Map*/
+
+.mapStyle {
+    position: relative;
+    width: 100%;
+    height: 70vh;
+}
+
+.InfoboxCustom .infobox-body {
+    margin-top: -45px;
+}
+
+    .InfoboxCustom .infobox-body .customInfobox {
+        background: #181D3D;
+        opacity: 0.85;
+        color: white;
+        max-width: 200px;
+        border-radius: 10px;
+        padding: 5px;
+        font-size: 12px;
+        pointer-events: auto !important;
+        text-align: center;
+    }
+
+        .InfoboxCustom .infobox-body .customInfobox .title {
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .InfoboxCustom .infobox-body .customInfobox .subtitle {
+            font-size: 12px;
+            font-weight: bold;
+        }
